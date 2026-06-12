@@ -1,25 +1,37 @@
 export default function ImpactSection() {
   return (
-    <section className="bg-white px-6 py-24 md:py-32">
-      <div className="text-center max-w-2xl mx-auto mb-20">
-        <h2 className="text-3xl md:text-5xl font-black text-gray-900 tracking-tight mb-4">
+    <section className="surface px-6 py-24 md:py-32">
+
+      {/* Título sección */}
+      <div className="text-container text-center mb-20">
+        <h2 className="heading-2 mb-4">
           Cada compra nos acerca a una meta real
         </h2>
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p className="body-lg body-secondary">
           No compras solo un producto. Formas parte de algo más grande.
         </p>
       </div>
-      <div className="max-w-2xl mx-auto flex flex-col gap-6">
-        <p className="text-sm font-medium text-gray-500 tracking-wide">
+
+      {/* Bloque de progreso */}
+      <div className="text-container flex flex-col gap-6">
+
+        {/* Texto meta */}
+        <p className="body-secondary text-sm font-medium">
           Próxima meta: Ayudar a financiar un proyecto para mascotas.
         </p>
-        <div className="w-full bg-gray-100 rounded-full h-2">
-          <div className="bg-gray-900 h-2 rounded-full w-2/3" />
+
+        {/* Barra de progreso */}
+        <div className="w-full h-2 rounded-full bg-[var(--color-border)]">
+          <div className="h-2 rounded-full w-2/3 bg-[var(--color-primary)]" />
         </div>
-        <p className="text-base text-gray-400 leading-relaxed">
+
+        {/* Mensaje final */}
+        <p className="body-secondary">
           Tu compra nos acerca a la siguiente meta.
         </p>
+
       </div>
+
     </section>
   );
 }
