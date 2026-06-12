@@ -1,0 +1,31 @@
+.surface { background-color: var(--color-surface); }
+.surface-alt { background-color: var(--color-surface-alt); }
+.surface-dark { background-color: var(--color-primary); }
+
+.section-container {
+  padding-left: var(--section-px-mobile);
+  padding-right: var(--section-px-mobile);
+  padding-top: var(--section-padding-mobile);
+  padding-bottom: var(--section-padding-mobile);
+}
+
+@media (min-width: 768px) {
+  .section-container {
+    padding-left: var(--section-px-tablet);
+    padding-right: var(--section-px-tablet);
+    padding-top: var(--section-padding-desktop);
+    padding-bottom: var(--section-padding-desktop);
+  }
+}
+
+.content-container {
+  max-width: var(--max-width-content);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-container {
+  max-width: var(--max-width-text);
+  margin-left: auto;
+  margin-right: auto;
+}

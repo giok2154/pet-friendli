@@ -1,9 +1,4 @@
-/* ============================================
-   PET FRIENDLI — DESIGN TOKENS V1
-   ============================================ */
-
 :root {
-  /* TIPOGRAFÍA */
   --font-family: 'Plus Jakarta Sans', sans-serif;
 
   --font-size-h1-mobile: 2.25rem;
@@ -35,7 +30,6 @@
   --tracking-normal: 0;
   --tracking-wide: 0.08em;
 
-  /* COLORES */
   --color-primary: #1A1A1A;
   --color-secondary: #6B6B6B;
   --color-surface: #FFFFFF;
@@ -47,7 +41,6 @@
   --color-text-muted: #9B9B96;
   --color-inverse: #FFFFFF;
 
-  /* ESPACIADOS */
   --section-padding-mobile: 5rem;
   --section-padding-desktop: 8rem;
   --section-px-mobile: 1.5rem;
